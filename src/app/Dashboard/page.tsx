@@ -8,7 +8,7 @@ import AddStudentsButton from "../components/FormModals/addStudents/AddStudentsB
 
 import axios from "axios";
 import DepartmentContainer from "../components/DashboardComponents/DepartmentContainer";
-import UploadFiles from "./UploadFiles";
+import UploadFiles from "../components/UploadFiles";
 
 interface Department {
   id: number;
