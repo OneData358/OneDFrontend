@@ -68,7 +68,7 @@ const DepTeachersContainer: React.FC<DepartmentContainerProps> = ({ teachers, de
                     <React.Fragment key={teacher._id}>
                         {/* <DepartmentList teacher={teacher}/> */}
                         <div className='grid grid-cols-6 my-2 text-black font-bold text-lg'>       
-                        <Link href={`/Teachers/profile/${teacher._id}`} className="col-span-2" >
+                        <Link href={`/teachers/profile/${teacher._id}`} className="col-span-2" >
                                 <h3 className='col-span-2'>{teacher.name}</h3>
                                 </Link>
       

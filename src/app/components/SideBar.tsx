@@ -14,7 +14,7 @@ import { PiStudentBold } from 'react-icons/Pi'
 import { CgProfile } from "react-icons/cg";
 export default function SideBar() {
   return (
-    <div className=" border-r-2 border-b-2 border-t-2 rounded-md z-10 shadow-md  border-blue-600 px-2">
+    <div className=" rounded-md z-10 shadow-md  px-2">
       <div className="flex flex-col justify-start item-center">
         <div className=" my-4 border-b border-gray-100 pb-4">
           <SidebarMenuItem Icon={MdDashboard} title="Dashboard" />

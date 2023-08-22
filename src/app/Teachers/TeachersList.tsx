@@ -23,7 +23,7 @@ interface Teacher {
     // Implement the rendering of the teacher details here
     return (
       <div className='grid grid-cols-6 my-2 text-black font-bold text-lg'>       
-       <Link href={`/Teachers/profile/${teacher._id}`} className="col-span-2" >
+       <Link href={`/teachers/profile/${teacher._id}`} className="col-span-2" >
        <h3 >{teacher.name}</h3>
        </Link>
       
