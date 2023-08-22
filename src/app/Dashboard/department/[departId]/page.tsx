@@ -1,11 +1,13 @@
 import DepTeachersContainer from '../../../components/DepartmentComponents/DepTeachersContainer';
 // import React from 'react'
-import AddFacultyButton from './AddFacultyButton';
+
 import * as React from "react";
-import RemoveTeacher from './RemoveTeacher';
-import RemoveTeacherButton from './RemoveTeacherButton';
-import RemoveHodButton from './RemoveHodButton';
-import ChangeViewButton from './ChangeViewButton';
+
+import RemoveTeacherButton from '../../../components/RemoveTeacherButton';
+import ChangeViewButton from '@/app/components/ChangeViewButton';
+import RemoveHodButton from '@/app/components/RemoveHodButton';
+import AddFacultyButton from '@/app/components/AddFacultyButton';
+
 const getDepartment = async (departId: string) => {
     try {
         console.log(departId);
